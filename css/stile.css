@@ -1,0 +1,174 @@
+/* outfit-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/outfit-v11-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* outfit-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/outfit-v11-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* outfit-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/outfit-v11-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* young-serif-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Young Serif";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/young-serif-v2-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+* {
+  margin: 0;
+  bottom: 0;
+  box-sizing: border-box;
+}
+ol,
+ul {
+  list-style: none;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+body {
+  font-family: "Outfit" Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5f564d;
+  background-color: #f3e5d7;
+  padding-top: 123px;
+  padding-bottom: 123px;
+}
+.divder {
+  margin-bottom: 32px;
+  border: 1px solid #e3ddd7;
+  border-bottom: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 776px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 24px;
+}
+.main-image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+.title {
+  font-family: "Young Serif", serif;
+  color: #312e2c;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+.intro-content {
+  margin-bottom: 32px;
+}
+
+.prepation-time {
+  padding: 24px;
+  background-color: snow;
+  border-radius: 12px;
+}
+.prepation-time-title {
+  margin-bottom: 16px;
+  font-weight: 600px;
+  font-size: 20px;
+  line-height: 20px;
+  color: #7a284e;
+}
+.prepation-time-list {
+}
+.ingredients-item,
+.prepation-time-item {
+  list-style: disc;
+  padding-left: 16px;
+}
+.ingredients-item:not(:list-child),
+.prepation-time-item:not(:list-child) {
+  margin-bottom: 8px;
+}
+
+.ingredients {
+  margin-bottom: 32px;
+}
+.instructions-title,
+.ingredients-title {
+  font-family: "Young Serif", serif;
+  line-height: 28px;
+  font-size: 28px;
+  font-weight: 400;
+  color: #854632;
+  height: 28px;
+  margin-bottom: 24px;
+  margin-left: 16px;
+}
+.ingredients-list {
+  margin-left: 16px;
+}
+.instructions-list {
+  list-style: decimal;
+}
+.instructions-item {
+}
+
+.nutrition-section {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 40px auto;
+  border: 1px solid #e6e6e6;
+}
+
+.nutrition-title {
+  font-family: "Young Serif" serif;
+  color: #854632;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.nutrition-description {
+  color: #555555;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.nutrition-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.nutrition-table td {
+  padding: 10px 5px;
+  border-bottom: 1px solid #e6e6e6; /* Yengil pastki chiziq */
+  color: #555555;
+  font-size: 16px;
+}
+
+.nutrition-table .value {
+  text-align: right;
+  font-weight: bold;
+  color: #4d2b20; /* Jigarrang */
+}
